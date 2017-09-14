@@ -1,0 +1,6 @@
+framework module OnePointOnlineFramework {
+  umbrella header "OnePointOnlineFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

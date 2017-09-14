@@ -1,0 +1,16 @@
+PODS:
+  - OnePointOnlineFramework (0.1.0)
+
+DEPENDENCIES:
+  - OnePointOnlineFramework (from `../`)
+
+EXTERNAL SOURCES:
+  OnePointOnlineFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OnePointOnlineFramework: 00571800ea134ca32dffc6ddc43f3c83e38e0419
+
+PODFILE CHECKSUM: e002e2074054151c0e3d7049fcce0d18ff951b0b
+
+COCOAPODS: 1.3.1

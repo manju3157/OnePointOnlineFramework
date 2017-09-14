@@ -1,0 +1,22 @@
+{
+  "name": "OnePointOnlineFramework",
+  "version": "0.1.0",
+  "summary": "A short description of OnePointOnlineFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/manjunath.ramesh@onepointglobal.com/OnePointOnlineFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "manjunath.ramesh@onepointglobal.com": "manjunath.ramesh@onepointglobal.com"
+  },
+  "source": {
+    "git": "https://github.com/manjunath.ramesh@onepointglobal.com/OnePointOnlineFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OnePointOnlineFramework/Classes/**/*"
+}
