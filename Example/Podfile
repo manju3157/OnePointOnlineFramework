@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OnePointOnlineFramework_Example' do
+  pod 'OnePointOnlineFramework', :path => '../'
+
+  target 'OnePointOnlineFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
