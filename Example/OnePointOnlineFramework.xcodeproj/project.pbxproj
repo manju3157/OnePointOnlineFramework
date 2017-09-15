@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F51CAF9E2B3F5B2D65D0007 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		250A6F6708CC24395DE811AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F51CAF9E2B3F5B2D65D0007 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		250A6F6708CC24395DE811AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OnePointOnlineFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePointOnlineFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		745A544C79CB08909C86ABED /* Pods-OnePointOnlineFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePointOnlineFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnePointOnlineFramework_Tests/Pods-OnePointOnlineFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AEFD78E673B66A97D0C05C4D /* Pods-OnePointOnlineFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePointOnlineFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnePointOnlineFramework_Tests/Pods-OnePointOnlineFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B65FFB497FCF904921696C79 /* Pods_OnePointOnlineFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnePointOnlineFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D129DD1BB4695FDBECC520C0 /* OnePointOnlineFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OnePointOnlineFramework.podspec; path = ../OnePointOnlineFramework.podspec; sourceTree = "<group>"; };
+		D129DD1BB4695FDBECC520C0 /* OnePointOnlineFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OnePointOnlineFramework.podspec; path = ../OnePointOnlineFramework.podspec; sourceTree = "<group>"; };
 		D25D054A8D29B36CD66B495A /* Pods-OnePointOnlineFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePointOnlineFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA18E263B958E5E4CFE36DB8 /* Pods_OnePointOnlineFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnePointOnlineFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7FK8U2PHL6;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7FK8U2PHL6;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -285,9 +287,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example-resources.sh",
+				"${PODS_ROOT}/../../OnePointOnlineFramework/Assets/OPGResourceBundle.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/OnePointOnlineFramework/OnePointOnlineFramework.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -301,11 +307,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/OnePointOnlineFramework/OnePointOnlineFramework.framework",
+				"${PODS_ROOT}/../../OnePointFramework_Lite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePointOnlineFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePointFramework_Lite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -505,6 +511,8 @@
 			baseConfigurationReference = 740406452F5D5CFEA65F0B56 /* Pods-OnePointOnlineFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7FK8U2PHL6;
 				INFOPLIST_FILE = OnePointOnlineFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +527,8 @@
 			baseConfigurationReference = D25D054A8D29B36CD66B495A /* Pods-OnePointOnlineFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7FK8U2PHL6;
 				INFOPLIST_FILE = OnePointOnlineFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +542,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEFD78E673B66A97D0C05C4D /* Pods-OnePointOnlineFramework_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7FK8U2PHL6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +564,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 745A544C79CB08909C86ABED /* Pods-OnePointOnlineFramework_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7FK8U2PHL6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

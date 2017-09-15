@@ -9,32 +9,34 @@
 Pod::Spec.new do |s|
   s.name             = 'OnePointOnlineFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OnePointOnlineFramework.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'My First SDK Framework.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+   My First SDK to take mobile surveys
                        DESC
 
-  s.homepage         = 'https://github.com/manjunath.ramesh@onepointglobal.com/OnePointOnlineFramework'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/manju3157/OnePointOnlineFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'manjunath.ramesh@onepointglobal.com' => 'manjunath.ramesh@onepointglobal.com' }
-  s.source           = { :git => 'https://github.com/manjunath.ramesh@onepointglobal.com/OnePointOnlineFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/manju3157/OnePointOnlineFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.ios.vendored_frameworks = 'OnePointFramework_Lite.framework'
 
-  s.source_files = 'OnePointOnlineFramework/Classes/**/*'
+  #s.source_files = 'OnePointOnlineFramework/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'OnePointOnlineFramework' => ['OnePointOnlineFramework/Assets/*.png']
-  # }
+  s.resource_bundles = {
+  'OnePointOnlineFramework' => ['OnePointOnlineFramework/Assets/OPGResourceBundle.bundle']
+  }
+
+  s.resources = "OnePointOnlineFramework/Assets/OPGResourceBundle.bundle"
+
+  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/TestingSDK//.."/**' }
+
+  s.xcconfig = {  'OTHER_LDFLAGS' => '-lz -ObjC' }
+
+  s.library = 'c++', 'iconv', 'z'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

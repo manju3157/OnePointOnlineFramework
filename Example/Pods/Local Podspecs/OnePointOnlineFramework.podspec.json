@@ -1,9 +1,9 @@
 {
   "name": "OnePointOnlineFramework",
   "version": "0.1.0",
-  "summary": "A short description of OnePointOnlineFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/manjunath.ramesh@onepointglobal.com/OnePointOnlineFramework",
+  "summary": "My First SDK Framework.",
+  "description": "My First SDK to take mobile surveys",
+  "homepage": "https://github.com/manju3157/OnePointOnlineFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,30 @@
     "manjunath.ramesh@onepointglobal.com": "manjunath.ramesh@onepointglobal.com"
   },
   "source": {
-    "git": "https://github.com/manjunath.ramesh@onepointglobal.com/OnePointOnlineFramework.git",
+    "git": "https://github.com/manju3157/OnePointOnlineFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OnePointOnlineFramework/Classes/**/*"
+  "ios": {
+    "vendored_frameworks": "OnePointFramework_Lite.framework"
+  },
+  "resource_bundles": {
+    "OnePointOnlineFramework": [
+      "OnePointOnlineFramework/Assets/OPGResourceBundle.bundle"
+    ]
+  },
+  "resources": "OnePointOnlineFramework/Assets/OPGResourceBundle.bundle",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/TestingSDK//..\"/**"
+  },
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-lz -ObjC"
+  },
+  "libraries": [
+    "c++",
+    "iconv",
+    "z"
+  ]
 }

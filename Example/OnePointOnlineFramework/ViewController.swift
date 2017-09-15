@@ -7,17 +7,39 @@
 //
 
 import UIKit
+import OnePointFramework_Lite
 
-class ViewController: UIViewController {
+class ViewController: OPGViewController, OPGSurveyDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let sdk = OPGSDK()
+        do {
+            let auth = try sdk.authenticate("m.ramesh", password: "dev")
+        }
+        catch{
+            print("Authentication Failed")         /* @"Error Occured. Contact Support!" */
+            
+        }
+        self.loadSurvey("NDPONLINE")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+      func didSurveyStartLoad() {
+        print("Survey Start Load")
+    }
+    
+    func didSurveyFinishLoad() {
+        print("Survey Finish Load")
+    }
+    
+    func didSurveyCompleted() {
+        self.navigationController?.popViewController(animated: true)
     }
 
 }

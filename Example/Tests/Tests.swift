@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import OnePointOnlineFramework
+//import OnePointOnlineFramework
 
 class Tests: XCTestCase {
     

@@ -1,0 +1,6 @@
+framework module OnePointFramework_Lite {
+  umbrella header "OnePointFramework_Lite.h"
+
+  export *
+  module * { export * }
+}

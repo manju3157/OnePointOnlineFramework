@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0CED495AD738D6915E74645625494F /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA81D557B9D2EF50F5833F1B5377CA68 /* OPGResourceBundle.bundle */; };
 		0E16EE6389BDCE03ED3A5308F0F77BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		33451D85F7784C88A0CA3994F1C4CA3E /* Pods-OnePointOnlineFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD84175D7C41665D716789134DB617 /* Pods-OnePointOnlineFramework_Example-dummy.m */; };
+		35F547E000016D87FE7D212A2D0D9C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		40F4ED114E17466885268CE7EFEAA4ED /* Pods-OnePointOnlineFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0049D21ADE7292070FE5B3B185A278 /* Pods-OnePointOnlineFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F233EE5CABC6F04DE0681351905395F /* Pods-OnePointOnlineFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD84175D7C41665D716789134DB617 /* Pods-OnePointOnlineFramework_Example-dummy.m */; };
-		C549157120CBC0B905FC496C2737E91E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C560B0C37B436323882A64C4943B1E0F /* Pods-OnePointOnlineFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B93C9EBC18F35CE30A42E5FD480C2879 /* Pods-OnePointOnlineFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6F8C9CFD781C58DC424DD7CFFEA5FF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CB9796F60B909836F43D46F7B6924BC8 /* OnePointOnlineFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA85AA93D45DBACD1C283E530ED819 /* OnePointOnlineFramework-dummy.m */; };
-		DA8D6144F2F22B94D90C535AB5E74CE8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF829D1737F5D87936591C6AD16F30 /* ReplaceMe.swift */; };
+		A2FEC87FE67B8F9A5F0115BC07137555 /* Pods-OnePointOnlineFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B93C9EBC18F35CE30A42E5FD480C2879 /* Pods-OnePointOnlineFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E728138C587C0653ACF2D453A66F3F91 /* Pods-OnePointOnlineFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E3D1E0AA7707050D157891A4CC947 /* Pods-OnePointOnlineFramework_Tests-dummy.m */; };
-		F9B029F66A8EADF4075048CA6E9D85F7 /* OnePointOnlineFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B3F4A0A6B4E258DCB61DE1D37BE147 /* OnePointOnlineFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2656CD8644A125D57094681D2ECFEE0 /* PBXContainerItemProxy */ = {
+		F1151C525EDDB999A720EC60C3EE982D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E727314C96D4DF763B999C9252ECF9E3;
-			remoteInfo = OnePointOnlineFramework;
+			remoteGlobalIDString = BD0880FAB181E41D46C11181F3D0A4E6;
+			remoteInfo = "OnePointOnlineFramework-OnePointOnlineFramework";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		155FE9E97A1658F1E52D072F24DA45E7 /* Pods_OnePointOnlineFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnePointOnlineFramework_Example.framework; path = "Pods-OnePointOnlineFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FD84175D7C41665D716789134DB617 /* Pods-OnePointOnlineFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnePointOnlineFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		2BF09D0A82FDA100B82376A01D1AA1C4 /* OnePointOnlineFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OnePointOnlineFramework.bundle; path = OnePointOnlineFramework.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		356FEC97AE82C6E6504C4F861F590B81 /* Pods-OnePointOnlineFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OnePointOnlineFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		41BF829D1737F5D87936591C6AD16F30 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OnePointOnlineFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		45694A2DA475AD223C83051C4063EF8C /* Pods-OnePointOnlineFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePointOnlineFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		493C3F311AA75495387CDC4F573CF03C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2C9C72945450C74199A969B6618C0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4315052B80F4354B6F2C31FAB69129 /* Pods-OnePointOnlineFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePointOnlineFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4C96E3CD4ACC5061D3C4DDB1BF0029F7 /* Pods-OnePointOnlineFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePointOnlineFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		59CF7C6DD16AFFA4BAACD5F4FEA01215 /* Pods-OnePointOnlineFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePointOnlineFramework_Example-resources.sh"; sourceTree = "<group>"; };
-		5DE83F0D7B33E419908C5549591AC681 /* Pods_OnePointOnlineFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnePointOnlineFramework_Tests.framework; path = "Pods-OnePointOnlineFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E392E6DD1ADB119D92D69C09EA2D59E /* OnePointOnlineFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePointOnlineFramework.xcconfig; sourceTree = "<group>"; };
 		60B1B6BAC5931F66BC7556732E8E9770 /* Pods-OnePointOnlineFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePointOnlineFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6758515A7D50D0FE6238881FE3C04014 /* Pods-OnePointOnlineFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OnePointOnlineFramework_Example.modulemap"; sourceTree = "<group>"; };
-		69B3F4A0A6B4E258DCB61DE1D37BE147 /* OnePointOnlineFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePointOnlineFramework-umbrella.h"; sourceTree = "<group>"; };
 		6D0049D21ADE7292070FE5B3B185A278 /* Pods-OnePointOnlineFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnePointOnlineFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
-		824F0D3B7349D5A1EE54DC91911E2213 /* OnePointOnlineFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OnePointOnlineFramework.modulemap; sourceTree = "<group>"; };
+		6FE0985EA1D67F24B4268268C43D920C /* ResourceBundle-OnePointOnlineFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OnePointOnlineFramework-Info.plist"; sourceTree = "<group>"; };
 		8A2E3D1E0AA7707050D157891A4CC947 /* Pods-OnePointOnlineFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnePointOnlineFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95DC7D336AFAB262475B92BCA0DA050F /* Pods-OnePointOnlineFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePointOnlineFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AEEA85AA93D45DBACD1C283E530ED819 /* OnePointOnlineFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnePointOnlineFramework-dummy.m"; sourceTree = "<group>"; };
+		A0B7E1290CCC1CCC520C55CC666C9526 /* Pods_OnePointOnlineFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnePointOnlineFramework_Tests.framework; path = "Pods-OnePointOnlineFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1157B999F2F2CB9F9D02C27773E9236 /* Pods_OnePointOnlineFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnePointOnlineFramework_Example.framework; path = "Pods-OnePointOnlineFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CFD357ABD0A9722BDD0046947ED645 /* Pods-OnePointOnlineFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnePointOnlineFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B93C9EBC18F35CE30A42E5FD480C2879 /* Pods-OnePointOnlineFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnePointOnlineFramework_Example-umbrella.h"; sourceTree = "<group>"; };
-		C1CF0586B037777F01981F20E39655A1 /* OnePointOnlineFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePointOnlineFramework-prefix.pch"; sourceTree = "<group>"; };
+		CA81D557B9D2EF50F5833F1B5377CA68 /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OPGResourceBundle.bundle; path = OnePointOnlineFramework/Assets/OPGResourceBundle.bundle; sourceTree = "<group>"; };
 		CF64CF4DA30B7516627E1A34F2E67A85 /* Pods-OnePointOnlineFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePointOnlineFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D25BE87FF867319333CB26FF5EB0C6FA /* OnePointFramework_Lite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OnePointFramework_Lite.framework; sourceTree = "<group>"; };
 		DA7B3E9386A4C98910EC354AE3B343C1 /* Pods-OnePointOnlineFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnePointOnlineFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F5D75A5A175ED046948F4202DE338C19 /* Pods-OnePointOnlineFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePointOnlineFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F6276AE5228A45E997B990F88A293C66 /* Pods-OnePointOnlineFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePointOnlineFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F67B6C7E9DBAEB597D3D2EFB8D241E36 /* OnePointOnlineFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnePointOnlineFramework.framework; path = OnePointOnlineFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBD69C6ADE1FAA965A31E28C3BD65432 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0783A89113009BAA88CBC27870EAD2 /* Pods-OnePointOnlineFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePointOnlineFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		67D7FF39BED5E9692792462E742DD70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A396BDD1D2BEE18C3ACBEFB42EFDE633 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,45 +73,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB7FBC4184A6EE45300B671465FEBD98 /* Frameworks */ = {
+		D28EF472E31AF67C7287389E6A324E67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C549157120CBC0B905FC496C2737E91E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1CE422EDDC8929CC77E2E550AC6B34A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6F8C9CFD781C58DC424DD7CFFEA5FF3 /* Foundation.framework in Frameworks */,
+				35F547E000016D87FE7D212A2D0D9C64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		265CF78BDD1197139EC81DE4EF9F0C7D /* Support Files */ = {
+		2D4F6BA5FFEEBD8082979137E2E499DD /* OnePointOnlineFramework */ = {
 			isa = PBXGroup;
 			children = (
-				FBD69C6ADE1FAA965A31E28C3BD65432 /* Info.plist */,
-				824F0D3B7349D5A1EE54DC91911E2213 /* OnePointOnlineFramework.modulemap */,
-				5E392E6DD1ADB119D92D69C09EA2D59E /* OnePointOnlineFramework.xcconfig */,
-				AEEA85AA93D45DBACD1C283E530ED819 /* OnePointOnlineFramework-dummy.m */,
-				C1CF0586B037777F01981F20E39655A1 /* OnePointOnlineFramework-prefix.pch */,
-				69B3F4A0A6B4E258DCB61DE1D37BE147 /* OnePointOnlineFramework-umbrella.h */,
+				CE99122BCECB2EEE1F7BADC066276976 /* Frameworks */,
+				44FD6966CBDC878F559A4311E65D655E /* Resources */,
+				CC070A815182878459861CCBD3D779D4 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OnePointOnlineFramework";
+			name = OnePointOnlineFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		32F60F3513BF0444DEC8BA699B6608E5 /* Development Pods */ = {
+		3D1AFDFFF3B8309BB355E8F0FF93C3CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D081002271D73CC6C6079490057E71C /* OnePointOnlineFramework */,
+				2BF09D0A82FDA100B82376A01D1AA1C4 /* OnePointOnlineFramework.bundle */,
+				A1157B999F2F2CB9F9D02C27773E9236 /* Pods_OnePointOnlineFramework_Example.framework */,
+				A0B7E1290CCC1CCC520C55CC666C9526 /* Pods_OnePointOnlineFramework_Tests.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FD6966CBDC878F559A4311E65D655E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA81D557B9D2EF50F5833F1B5377CA68 /* OPGResourceBundle.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		464CE1EBA4021662EE2C1E0329AD2D8E /* Pods-OnePointOnlineFramework_Tests */ = {
@@ -136,31 +135,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				32F60F3513BF0444DEC8BA699B6608E5 /* Development Pods */,
+				B6DF07DAA2EF68F757B7C1C00C83F2E5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A9A92D9B4D240803AD4D90ED148CA802 /* Products */,
+				3D1AFDFFF3B8309BB355E8F0FF93C3CA /* Products */,
 				A9AAA0CB7EE81B553C4C1CFB9841465C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8D081002271D73CC6C6079490057E71C /* OnePointOnlineFramework */ = {
-			isa = PBXGroup;
-			children = (
-				41BF829D1737F5D87936591C6AD16F30 /* ReplaceMe.swift */,
-				265CF78BDD1197139EC81DE4EF9F0C7D /* Support Files */,
-			);
-			name = OnePointOnlineFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		A9A92D9B4D240803AD4D90ED148CA802 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F67B6C7E9DBAEB597D3D2EFB8D241E36 /* OnePointOnlineFramework.framework */,
-				155FE9E97A1658F1E52D072F24DA45E7 /* Pods_OnePointOnlineFramework_Example.framework */,
-				5DE83F0D7B33E419908C5549591AC681 /* Pods_OnePointOnlineFramework_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A9AAA0CB7EE81B553C4C1CFB9841465C /* Targets Support Files */ = {
@@ -172,10 +151,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B6DF07DAA2EF68F757B7C1C00C83F2E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D4F6BA5FFEEBD8082979137E2E499DD /* OnePointOnlineFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC070A815182878459861CCBD3D779D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FE0985EA1D67F24B4268268C43D920C /* ResourceBundle-OnePointOnlineFramework-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OnePointOnlineFramework";
+			sourceTree = "<group>";
+		};
+		CE99122BCECB2EEE1F7BADC066276976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D25BE87FF867319333CB26FF5EB0C6FA /* OnePointFramework_Lite.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,19 +213,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22F4561C5A534C2650308D9F9C34219C /* Headers */ = {
+		B83F96A664CEF8CAD571E544110841E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B029F66A8EADF4075048CA6E9D85F7 /* OnePointOnlineFramework-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71F563B8C608C96DB9BBDB1F74FECA3D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C560B0C37B436323882A64C4943B1E0F /* Pods-OnePointOnlineFramework_Example-umbrella.h in Headers */,
+				A2FEC87FE67B8F9A5F0115BC07137555 /* Pods-OnePointOnlineFramework_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,43 +246,43 @@
 			);
 			name = "Pods-OnePointOnlineFramework_Tests";
 			productName = "Pods-OnePointOnlineFramework_Tests";
-			productReference = 5DE83F0D7B33E419908C5549591AC681 /* Pods_OnePointOnlineFramework_Tests.framework */;
+			productReference = A0B7E1290CCC1CCC520C55CC666C9526 /* Pods_OnePointOnlineFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A400047910F9C498F11DB74F2321733 /* Pods-OnePointOnlineFramework_Example */ = {
+		A949CEB84848302BA8CA1C9E74B5C587 /* Pods-OnePointOnlineFramework_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30B38462D9D72870AD7E80D52B95E4A2 /* Build configuration list for PBXNativeTarget "Pods-OnePointOnlineFramework_Example" */;
+			buildConfigurationList = 8E95703BCED89602719009BADA3FB93D /* Build configuration list for PBXNativeTarget "Pods-OnePointOnlineFramework_Example" */;
 			buildPhases = (
-				2EA214DD6AF0D9548043F6E56E425B33 /* Sources */,
-				E1CE422EDDC8929CC77E2E550AC6B34A /* Frameworks */,
-				71F563B8C608C96DB9BBDB1F74FECA3D /* Headers */,
+				9BC2A58CFD58455F0487D0D69568686D /* Sources */,
+				D28EF472E31AF67C7287389E6A324E67 /* Frameworks */,
+				B83F96A664CEF8CAD571E544110841E5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB9EAFA899C17787575D05EA93E6A9CC /* PBXTargetDependency */,
+				A565D19F9E0360C9FF08B419F93DCA44 /* PBXTargetDependency */,
 			);
 			name = "Pods-OnePointOnlineFramework_Example";
 			productName = "Pods-OnePointOnlineFramework_Example";
-			productReference = 155FE9E97A1658F1E52D072F24DA45E7 /* Pods_OnePointOnlineFramework_Example.framework */;
+			productReference = A1157B999F2F2CB9F9D02C27773E9236 /* Pods_OnePointOnlineFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E727314C96D4DF763B999C9252ECF9E3 /* OnePointOnlineFramework */ = {
+		BD0880FAB181E41D46C11181F3D0A4E6 /* OnePointOnlineFramework-OnePointOnlineFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3346C399C159DB6198DAE704AF3A7EC /* Build configuration list for PBXNativeTarget "OnePointOnlineFramework" */;
+			buildConfigurationList = E8C84F68F0E033F96684E4F6269382B5 /* Build configuration list for PBXNativeTarget "OnePointOnlineFramework-OnePointOnlineFramework" */;
 			buildPhases = (
-				8B9DE8AAA298DA39F0ACF14865215CA2 /* Sources */,
-				DB7FBC4184A6EE45300B671465FEBD98 /* Frameworks */,
-				22F4561C5A534C2650308D9F9C34219C /* Headers */,
+				073006851CBCD98DA3ADBF4EBCF54F7F /* Sources */,
+				67D7FF39BED5E9692792462E742DD70F /* Frameworks */,
+				BC634E3D823BE90A81B02E64713D7F23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OnePointOnlineFramework;
-			productName = OnePointOnlineFramework;
-			productReference = F67B6C7E9DBAEB597D3D2EFB8D241E36 /* OnePointOnlineFramework.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "OnePointOnlineFramework-OnePointOnlineFramework";
+			productName = "OnePointOnlineFramework-OnePointOnlineFramework";
+			productReference = 2BF09D0A82FDA100B82376A01D1AA1C4 /* OnePointOnlineFramework.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -305,32 +301,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A9A92D9B4D240803AD4D90ED148CA802 /* Products */;
+			productRefGroup = 3D1AFDFFF3B8309BB355E8F0FF93C3CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E727314C96D4DF763B999C9252ECF9E3 /* OnePointOnlineFramework */,
-				8A400047910F9C498F11DB74F2321733 /* Pods-OnePointOnlineFramework_Example */,
+				BD0880FAB181E41D46C11181F3D0A4E6 /* OnePointOnlineFramework-OnePointOnlineFramework */,
+				A949CEB84848302BA8CA1C9E74B5C587 /* Pods-OnePointOnlineFramework_Example */,
 				3B74C7ADA516F20604A5C58C992ECBA2 /* Pods-OnePointOnlineFramework_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		2EA214DD6AF0D9548043F6E56E425B33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		BC634E3D823BE90A81B02E64713D7F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F233EE5CABC6F04DE0681351905395F /* Pods-OnePointOnlineFramework_Example-dummy.m in Sources */,
+				0A0CED495AD738D6915E74645625494F /* OPGResourceBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B9DE8AAA298DA39F0ACF14865215CA2 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073006851CBCD98DA3ADBF4EBCF54F7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9796F60B909836F43D46F7B6924BC8 /* OnePointOnlineFramework-dummy.m in Sources */,
-				DA8D6144F2F22B94D90C535AB5E74CE8 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC2A58CFD58455F0487D0D69568686D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33451D85F7784C88A0CA3994F1C4CA3E /* Pods-OnePointOnlineFramework_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,11 +350,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FB9EAFA899C17787575D05EA93E6A9CC /* PBXTargetDependency */ = {
+		A565D19F9E0360C9FF08B419F93DCA44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OnePointOnlineFramework;
-			target = E727314C96D4DF763B999C9252ECF9E3 /* OnePointOnlineFramework */;
-			targetProxy = B2656CD8644A125D57094681D2ECFEE0 /* PBXContainerItemProxy */;
+			name = "OnePointOnlineFramework-OnePointOnlineFramework";
+			target = BD0880FAB181E41D46C11181F3D0A4E6 /* OnePointOnlineFramework-OnePointOnlineFramework */;
+			targetProxy = F1151C525EDDB999A720EC60C3EE982D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,6 +392,38 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43A9C36850AB0649F51DCACD8D1EDC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OnePointOnlineFramework";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OnePointOnlineFramework/ResourceBundle-OnePointOnlineFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OnePointOnlineFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		50FA302C051CA73B3C30B9DE26728047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OnePointOnlineFramework";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OnePointOnlineFramework/ResourceBundle-OnePointOnlineFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OnePointOnlineFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -433,45 +470,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		859B4C4C346EBFC800F3F4CF9603C94C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6276AE5228A45E997B990F88A293C66 /* Pods-OnePointOnlineFramework_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OnePointOnlineFramework_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -522,9 +520,9 @@
 			};
 			name = Debug;
 		};
-		B8D7E70AAF813FA75BEA72B721B19F1C /* Debug */ = {
+		B8B815637258553EC7FB8CC5310AA25E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E392E6DD1ADB119D92D69C09EA2D59E /* OnePointOnlineFramework.xcconfig */;
+			baseConfigurationReference = F6276AE5228A45E997B990F88A293C66 /* Pods-OnePointOnlineFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -538,28 +536,29 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OnePointOnlineFramework/OnePointOnlineFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnePointOnlineFramework/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnePointOnlineFramework/OnePointOnlineFramework.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OnePointOnlineFramework;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OnePointOnlineFramework_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C573201357C47D42D15475074432E635 /* Release */ = {
+		C9BDE729ADCD33573A887EF1C8CE74E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E392E6DD1ADB119D92D69C09EA2D59E /* OnePointOnlineFramework.xcconfig */;
+			baseConfigurationReference = 60B1B6BAC5931F66BC7556732E8E9770 /* Pods-OnePointOnlineFramework_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -573,19 +572,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OnePointOnlineFramework/OnePointOnlineFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnePointOnlineFramework/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnePointOnlineFramework/OnePointOnlineFramework.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OnePointOnlineFramework;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OnePointOnlineFramework_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -628,44 +628,6 @@
 			};
 			name = Debug;
 		};
-		D93D4BE960369EBDF85D5B19C3E212EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60B1B6BAC5931F66BC7556732E8E9770 /* Pods-OnePointOnlineFramework_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OnePointOnlineFramework_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,20 +649,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30B38462D9D72870AD7E80D52B95E4A2 /* Build configuration list for PBXNativeTarget "Pods-OnePointOnlineFramework_Example" */ = {
+		8E95703BCED89602719009BADA3FB93D /* Build configuration list for PBXNativeTarget "Pods-OnePointOnlineFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				859B4C4C346EBFC800F3F4CF9603C94C /* Debug */,
-				D93D4BE960369EBDF85D5B19C3E212EF /* Release */,
+				B8B815637258553EC7FB8CC5310AA25E /* Debug */,
+				C9BDE729ADCD33573A887EF1C8CE74E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3346C399C159DB6198DAE704AF3A7EC /* Build configuration list for PBXNativeTarget "OnePointOnlineFramework" */ = {
+		E8C84F68F0E033F96684E4F6269382B5 /* Build configuration list for PBXNativeTarget "OnePointOnlineFramework-OnePointOnlineFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8D7E70AAF813FA75BEA72B721B19F1C /* Debug */,
-				C573201357C47D42D15475074432E635 /* Release */,
+				43A9C36850AB0649F51DCACD8D1EDC71 /* Debug */,
+				50FA302C051CA73B3C30B9DE26728047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
