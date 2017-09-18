@@ -16,13 +16,13 @@ class ViewController: OPGViewController, OPGSurveyDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         let sdk = OPGSDK()
         do {
-            let auth = try sdk.authenticate("m.ramesh", password: "dev")
+            let auth = try sdk.authenticate("Username", password: "Passowrd")
         }
         catch{
             print("Authentication Failed")         /* @"Error Occured. Contact Support!" */
             
         }
-        self.loadSurvey("NDPONLINE")
+        self.loadSurvey("Survey_Name")
     }
 
     override func didReceiveMemoryWarning() {
