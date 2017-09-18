@@ -18,7 +18,6 @@ FOUNDATION_EXPORT const unsigned char OnePointFramework_LiteVersionString[];
 
 
 #import <OnePointFramework_Lite/OPGSDK.h>
-
 #import <OnePointFramework_Lite/OPGSurvey.h>
 #import <OnePointFramework_Lite/OPGViewController.h>
 #import <OnePointFramework_Lite/OPGAuthenticate.h>
@@ -32,12 +31,8 @@ FOUNDATION_EXPORT const unsigned char OnePointFramework_LiteVersionString[];
 #import <OnePointFramework_Lite/OPGTheme.h>
 #import <OnePointFramework_Lite/OPGGeoFence.h>
 #import <OnePointFramework_Lite/OPGGeoFenceSurvey.h>
-//#import <OnePointFramework_Lite/OPGReachability.h>
 #import <OnePointFramework_Lite/OPGCountry.h>
-
-
-//#import <OnePointFramework_Lite/OPGBaseController.h>
 #import <OnePointFramework_Lite/OPGViewController.h>
-//#import <OnePointFramework_Lite/OPGAvailability.h>
+
 
 
