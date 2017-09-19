@@ -1,6 +1,6 @@
 {
   "name": "OnePointOnlineFramework",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "My First SDK Framework.",
   "description": "My First SDK to take mobile surveys",
   "homepage": "https://github.com/manju3157/OnePointOnlineFramework",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/manju3157/OnePointOnlineFramework.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,10 +25,6 @@
     "OnePointOnlineFramework": [
       "OnePointOnlineFramework/Assets/OPGResourceBundle.bundle"
     ]
-  },
-  "resources": "OnePointOnlineFramework/Assets/OPGResourceBundle.bundle",
-  "pod_target_xcconfig": {
-    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/TestingSDK//..\"/**"
   },
   "xcconfig": {
     "OTHER_LDFLAGS": "-lz -ObjC"

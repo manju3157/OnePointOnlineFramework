@@ -288,8 +288,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OnePointOnlineFramework_Example/Pods-OnePointOnlineFramework_Example-resources.sh",
-				"${PODS_ROOT}/../../OnePointOnlineFramework/Assets/OPGResourceBundle.bundle",
-				$PODS_CONFIGURATION_BUILD_DIR/OnePointOnlineFramework/OnePointOnlineFramework.bundle,
+				"$PODS_CONFIGURATION_BUILD_DIR/OnePointOnlineFramework/OnePointOnlineFramework.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
